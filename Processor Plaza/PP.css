@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-image: url(imgs/bg.jpg);
+}
+
+.head{
+    background-color: rgb(29, 28, 28);
+    height: 133px;
+}
+
+.head .logo{
+    height: 133px;
+}
+
+.head .logo img{
+    position: relative;
+    
+    bottom: 90px;
+    width: 335px;
+    height: 335px;
+}
+
+header{
+    width: 700px;
+}
+
+header ul{
+    width: 700px;
+    display: flex;
+    position: relative;
+    left: 757px;
+    bottom: 105px;
+    width: 400px;
+    
+}
+header ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+header ul a li{
+    margin: 20px;
+    list-style: none;
+
+}
+
+.content{
+    position: relative;
+    top: 100px;
+    height: 781px;
+}
+
+.content .text{
+    position: relative;
+    bottom: 50px;
+    left: 534px;
+    width: 269px;
+
+}
+
+.content .text h1{
+    
+    color: white;
+}
+
+.content ul{
+    padding: 0px;
+    display: flex;
+}
+
+.content ul h2{
+    color: white;
+    position: relative;
+    left: 125px;
+    height: 81px;
+    font-size: 50px;
+}
+
+.content p{
+    position: relative;
+    left: 970px;
+    bottom: 415px;
+    font-size: 20px;
+    color: white;
+    width: 339px;
+    height: 424px;
+}
+
+.content ul li img{
+    position: relative;
+    left: 40px;
+    width: 900px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+/**footer**/
+
+footer{
+    background-color: rgb(29, 28, 28);
+    position: relative;
+    top: 285px;
+    margin-top: auto;
+    height: 140px;
+}
+
+footer .icons p{
+    position: relative;
+    width: 330px;
+    left: 596px;
+    top: 7px;
+    font-size: 25px;
+    color: white;
+}
+
+footer .icons ul{
+    position: relative;
+    width: 600px;
+    left: 540px;
+    top: 9px;
+    display: flex;
+
+}
+
+footer .icons ul li{
+    list-style: none;
+    
+}
+
+footer .icons ul li img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
